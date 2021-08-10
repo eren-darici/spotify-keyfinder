@@ -1,0 +1,27 @@
+.center {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    color: white;
+    text-emphasis-color: antiquewhite;
+}
+
+.center2 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    color: #1f1f1f;
+    text-emphasis-color: #151414;
+}
+
+body {
+  background-image: url('https://media.cointral.com/uploads/sites/2/2020/12/04141911/spotify-bitcoin-odeme.png');
+}

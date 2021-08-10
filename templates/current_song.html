@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Song</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+
+<div class="center2">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" alt="Song Cover" src="../static/cover.png">
+        <div class="card-body">
+            <h5 class="card-title">{{ name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ artist }}</h6>
+            <br>
+            <p class="card-text">{{ info }}</p>
+            <p class="card-text">{{ tempo }}</p>
+            <a href="/currentSong" class="card-link">Refresh</a>
+            <a href="https://www.spotify.com/logout/" class="card-link">Logout</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
